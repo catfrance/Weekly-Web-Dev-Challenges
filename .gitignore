@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Week 1 - Emoji Ratings/.vs/slnx.sqlite
+/Week 1 - Emoji Ratings/.vs/ProjectSettings.json
+/Week 1 - Emoji Ratings/.vs
