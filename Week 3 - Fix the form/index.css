@@ -1,0 +1,90 @@
+/*
+
+PART 1:
+
+You've been ordered to improve your company's newsletter form. 
+You can design it however you want, but the manager wants the button to
+animate both on the :hover and the :active state.
+
+1. Redesign the page (e.g. colors, positions, sizing, spacing)
+2. Improve the button's hover effect
+3. Improve thee button's click effect
+
+SKILLS:
+color, background, margin, padding, border-radius, 
+CSS pseudo selectors (:active, :hover), transform
+*/
+
+
+body {
+    margin: 0;
+    background: #f6fcff;
+    font-family: Roboto,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+form {
+    text-align: center;
+}
+
+h3 {
+    color: #054463;
+    margin-top: 0px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+p {
+    color: #464646;
+}
+
+input {
+    width: 100%;
+    margin: 0 0 1em 0;
+    padding: 5px;
+    border: 1px solid silver;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+    input:focus {
+        outline: 1px solid #5eabd0;
+    }
+
+button {
+    display: block;
+    border-radius: 2px;
+    background: #0d3c54;
+    margin: 0 auto;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.2s background-color;
+    outline: none;
+}
+
+    button:hover {
+        background-color: #134f6e;
+    }
+
+button:active {
+    letter-spacing: 2px;
+    outline: none;
+}
+
+.form-wrapper {
+    background: #ebebeb;
+    border: 1px solid #bfbfbf;
+    padding: 20px 30px;
+    box-sizing: border-box;
+}
+
+
