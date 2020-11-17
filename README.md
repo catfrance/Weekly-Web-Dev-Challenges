@@ -16,4 +16,5 @@ A css focused challenge to restyle an existing form according to a specification
 
 ## Week 5 - Logo Editor
 A challenge to use only javascript to edit styling a logo on a button press. Challenge was extended by adding toggle behaviour and a slider to control the shadow offset.
+
 ![Week 5 screenshot](https://github.com/catfrance/Weekly-Web-Dev-Challenges/blob/main/Week%205%20-%20Logo%20Editor/Week5.png)
